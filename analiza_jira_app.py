@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go 
-from dash import Dash, html, dcc, Input, Output
+from dash import Dash, html, dcc, Input, Output # type: ignore
 import os
 
 # --- 1. Funkcje do parsowania i kategoryzacji danych ---
